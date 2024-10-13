@@ -1,8 +1,8 @@
-Team name: Tomi és Réka
+#Team name: Tomi és Réka
 
 Team members: Szűcs Tamás (BGDOMU), Boros Réka (AF6LRA)
 
-Project description: Image generation with diffusion models
+#Project description: Image generation with diffusion models
 
 A projekt célja, hogy két különböző diffúziós modellt (a Denoising Diffusion Probabilistic Modelt (DDPM) és a Denoising Diffusion Implicit Modelt (DDIM)) implementáljuk és betanítsuk, majd ezek segítségével valósághű képeket generáljunk két különböző adatkészleten: a CelebA és a Flowers102 adatokon.
 
@@ -10,13 +10,13 @@ Az első cél a DDPM (Denoising Diffusion Probabilistic Model) megvalósítása.
 
 A második cél a DDIM (Denoising Diffusion Implicit Model) implementálása, amely a DDPM egy optimalizált változata. A DDIM determinisztikus mintavételezést biztosít, így gyorsabb képgenerálást tesz lehetővé, miközben a generált képek minősége nem csökken.
     
-Functions of the files in the repository:
+#Functions of the files in the repository:
 
 image_generation.ipynb: Ez a nootbook tartalmazza az adatok letöltését és előkészítését, a modellt, valamit a tanító ciklust (jelenleg csak az adatok letöltését és előkészítését).
     
 requierments.txt: Tartalmazza a szükséges python package-eket verziószámokkal, pip install -r requirements.txt command segítségével a megfelelő könyvtárak telepíthetőek.
     
-Related works:
+#Related works:
 
 https://arxiv.org/pdf/2006.11239
 
