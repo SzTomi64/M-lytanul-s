@@ -1,5 +1,7 @@
 Team name: Tomi és Réka
+
 Team members: Szűcs Tamás (BGDOMU), Boros Réka (AF6LRA)
+
 Project description: Image generation with diffusion models
     A projekt célja, hogy két különböző diffúziós modellt (a Denoising Diffusion Probabilistic Modelt (DDPM) és a Denoising Diffusion Implicit Modelt (DDIM)) implementáljuk
     és betanítsuk, majd ezek segítségével valósághű képeket generáljunk két különböző adatkészleten: a CelebA és a Flowers102 adatokon.
