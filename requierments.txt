@@ -4,3 +4,4 @@ gdown==5.2.0
 torchvision==0.19.1+cu121
 scipy==1.14.1
 ipykernel==6.29.5
+tqdm==4.66.5
