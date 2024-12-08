@@ -4,6 +4,8 @@ Team members: Szűcs Tamás (BGDOMU), Boros Réka (AF6LRA)
 
 Projekt neve: Képgenerálás diffúziós modellekkel
 
+requierments.txt: Azokat a Python csomagokat tartalmazza, amelyek a kód futattásához szükségesek.
+
 data.py: Ez a python kód egy PyTorch adatbetöltő osztályt definiál, amely képeket tölt be egy meglévő adathalmazból, majd fokozatosan zajt ad hozzájuk az idő függvényében. 
 A zajosítás mértékét egy koszinusz-alapú ütemezés határozza meg, ahol az idő előrehaladtával az eredeti kép egyre inkább zajosabbá válik. 
 A fő cél az, hogy szimulálja a diffúziós modellekben használt zajosítási folyamatot, ahol a modellnek meg kell tanulnia a zajos képből visszaállítani az eredetit.
@@ -21,3 +23,6 @@ A célja, hogy véletlenszerű zajból kiindulva fokozatosan egyre tisztább ké
 
 image_generation_pipeline.ipynb: Ebben a notebook-ban egy képregeneráló modellt tanítunk, amely zajos bemenetekből megtanulja visszaállítani az eredeti képeket.
 Az tanításhoz két adathalmazt használ: a CelebA és Flowers102 adatbázisokat. A kód különálló modelleket ment ki mind a CelebA, mind a Flowers102 adathalmazok alapján.
+
+link_to_pretrained_models.txt: Tartalmazza a linket az előre tanított modelljeinkhez.
+
