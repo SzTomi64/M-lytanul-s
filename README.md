@@ -2,7 +2,7 @@ Team name: Tomi és Réka
 
 Team members: Szűcs Tamás (BGDOMU), Boros Réka (AF6LRA)
 
-Project description: Image generation with diffusion models
+Projekt neve: Képgenerálás diffúziós modellekkel
 
 data.py: Ez a python kód egy PyTorch adatbetöltő osztályt definiál, amely képeket tölt be egy meglévő adathalmazból, majd fokozatosan zajt ad hozzájuk az idő függvényében. 
 A zajosítás mértékét egy koszinusz-alapú ütemezés határozza meg, ahol az idő előrehaladtával az eredeti kép egyre inkább zajosabbá válik. 
